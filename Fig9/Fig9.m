@@ -11,7 +11,7 @@ set(gcf,'color','w');
 ax = axes;
 set(gca,'Color',[1 1 1])
 
-load('Fig10_variable.mat')
+load('Fig9_variable.mat')
 semilogx(k_variable,eta,'-','LineWidth',Line_width)
 hold on
 semilogx(k_variable,eta_top-1e-3,'-','LineWidth',Line_width)
@@ -19,7 +19,7 @@ semilogx(k_variable,eta_bottom,'-','LineWidth',Line_width)
 semilogx(k_variable,eta_hoz,'-','LineWidth',Line_width)
 
 %PLot constant gap width data
-load('Fig10_constant.mat')
+load('Fig9_constant.mat')
 
 % %PLot main data
 semilogx(k_constant,eta,'k--','LineWidth',1.2*Line_width)

@@ -1,7 +1,7 @@
-%Fig12
+%Fig11
 
 %% Load data
-load('Fig12.mat')
+load('Fig11.mat')
 
 
 k0 = 14.52;
@@ -85,7 +85,7 @@ col_blue = [0 0.4470 0.7410];
 col_red = [0.8500 0.3250 0.0980];	
 col_blck = [0,0,0]; 
 
-load("Fig12.mat")
+load("Fig11.mat")
 
 plot(ax{1},Gamma0_vec,k_opt_vec,'LineWidth',1,'Color',[0 0 0])
 

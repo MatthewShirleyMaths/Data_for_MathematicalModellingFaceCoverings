@@ -21,7 +21,7 @@ set(gca,'Color',[1 1 1])
 ax.FontSize = 14;
 
 N_sweep=2;
-SweepName={'Fig14b_rectangle.mat','Fig14b_ellipse.mat'};
+SweepName={'FigS3b_rectangle.mat','FigS3b_ellipse.mat'};
 
 LineStyle={'-','--'};
 

@@ -23,7 +23,7 @@ MouthStyle = '--';
 MouthLineThickness = 0.5;
 
 %loop over mouths to plot
-for s=1:length(mouth_plot_idx_y)
+for s=1:4
     %Add boxes for mouth position
     mouth_centre_x = mouth_center_x_vec(s);
     mouth_centre_y = mouth_center_y_vec(s);
@@ -39,7 +39,7 @@ end
 
 %% Countours
 
-load("Fig7.mat")
+load("FigS2.mat")
 
 
 contour(X_mesh,Y_mesh,eta,'ShowText','off')
@@ -61,8 +61,8 @@ cb.Label.Interpreter='latex';
 
 cb.Position(2) = cb.Position(2)-0.05;
 
-xlim([0 a])
-ylim([0 b])
+xlim([0 2.0])
+ylim([0 1.0])
 
 xlabel('$E_{x}$','Interpreter','latex','FontSize',14)
 ylabel('$E_{y}$','Interpreter','latex','FontSize',14,'Rotation',0)

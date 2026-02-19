@@ -1,4 +1,4 @@
-%Fig11
+%Fig10
 
 %%
 f = tiledlayout(1,3);
@@ -75,7 +75,7 @@ end
 %% PLot curves
 
 
-dat_names={'Fig11_Gamma0p4.mat','Fig11_Gamma1p0.mat','Fig11_Gamma2p5.mat'};
+dat_names={'Fig10_Gamma0p4.mat','Fig10_Gamma1p0.mat','Fig10_Gamma2p5.mat'};
 Gamma0 = [0.4, 1.0,2.5];
 
 for jj=1:3

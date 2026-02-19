@@ -1,4 +1,4 @@
-#Fig13
+#FigS1
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +15,7 @@ flux_stretch = 1
 
 
 
-flns = ["Fig13_r0p0.npz","Fig13_r0p01.npz","Fig13_r0p1.npz","Fig13_r0p2.npz"]
+flns = ["FigS1_r0p0.npz","FigS1_r0p01.npz","FigS1_r0p1.npz","FigS1_r0p2.npz"]
 
 colours = ['k',
     "#0072BD",

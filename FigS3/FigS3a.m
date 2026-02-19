@@ -1,4 +1,4 @@
-%Fig14a
+%FigS3a
 
 
 %% Plot compariosn
@@ -35,7 +35,7 @@ lgd.NumColumns=3;
 
 %% PLot data
 
-load("Fig14a.mat")
+load("FigS3a.mat")
 
 semilogx(ax,k,eta_rect,'-','LineWidth',1,'Color',LineColour{1})
 
